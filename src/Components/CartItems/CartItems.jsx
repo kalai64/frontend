@@ -35,7 +35,7 @@ const CartItems = () => {
             pay.open();
             clearCart()
 
-            const response = await fetch('http://localhost:8000/clearcart', {
+            const response = await fetch('https://backend-knm3.onrender.com/clearcart', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

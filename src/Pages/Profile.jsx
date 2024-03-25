@@ -15,7 +15,7 @@ const Profile = () => {
 
     const fetchUserData = async () => {
         try {
-            const response = await fetch('http://localhost:8000/userdetails', {
+            const response = await fetch('https://backend-knm3.onrender.com/userdetails', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

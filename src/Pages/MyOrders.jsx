@@ -10,7 +10,7 @@ const MyOrders = () => {
 
     const fetchOrderedItems = async () => {
         try {
-            const response = await fetch('http://localhost:8000/getordereditems', {
+            const response = await fetch('https://backend-knm3.onrender.com/getordereditems', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

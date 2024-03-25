@@ -23,7 +23,7 @@ export const LoginSignup = () => {
   const login = async()=>{
     console.log("Login function",formData);
     let responseData
-    await fetch('http://localhost:8000/login',{
+    await fetch('https://backend-knm3.onrender.com/login',{
       method:'POST',
       headers:{
         Accept:'application/form-data',
@@ -44,7 +44,7 @@ export const LoginSignup = () => {
   const signup = async()=>{
     console.log("Signup Function",formData);
     let responseData
-    await fetch('http://localhost:8000/signup',{
+    await fetch('https://backend-knm3.onrender.com/signup',{
       method:'POST',
       headers:{
         Accept:'application/form-data',

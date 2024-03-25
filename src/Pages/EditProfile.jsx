@@ -37,7 +37,7 @@ const EditProfile = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         
-        fetch('http://localhost:8000/editprofile', {
+        fetch('https://backend-knm3.onrender.com/editprofile', {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
